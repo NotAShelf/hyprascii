@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: black;
+}
+.ascii-art {
+  font-family: monospace;
+  white-space: pre;
+  font-size: 16px;
+  color: white;
+  line-height: 1;
+}
