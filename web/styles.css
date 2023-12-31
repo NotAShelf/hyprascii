@@ -1,15 +1,14 @@
 body {
+  margin: 0;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  background-color: black;
+  overflow: hidden;
 }
-.ascii-art {
-  font-family: monospace;
-  white-space: pre;
-  font-size: 16px;
-  color: white;
-  line-height: 1;
+pre {
+  font-family: "JetBrainsMonoNL NFM", "Roboto";
 }
